@@ -3,7 +3,7 @@ No documentation yet -- for now, to create a new site, define the dataabase cons
 
 	<?php
 
-	include_once('Library/config.php');
+	include_once 'lib/config.php';
 
 	Hook::register('return routes', function($routes) {
 		'method' => 'GET',
